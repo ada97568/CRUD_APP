@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background: #EED202;
+}
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px darkred;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.container {
+    background: #007474;
+    border-radius: 8px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke
+}
+
+label {
+    color: #EED202;
+    text-transform: uppercase;
+}
+
+button {
+    color: blue;
+    background: #EED202;
+}
+
+#msg {
+    color: red;
+}
+
+
+#posts {
+    width: 400px;
+}
+
+textarea {
+    resize: none;
+}
+
+i {
+    cursor: pointer;
+}
