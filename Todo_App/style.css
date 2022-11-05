@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #1868ae;
+    text-shadow: 2px 3PX 2px #000000;
+    text-align: center;
+}
+
+.app {
+    background-color: #f3ca20;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #039fbe;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+}
+
+#addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b20238;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fa-plus {
+    background-color: #0074;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#msg {
+    color: red;
+}
+
+#tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+#tasks div {
+    border: 3px solid #FFD55E;
+    background-color: #FFF;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+
+#tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+#tasks div .options i {
+    cursor: pointer;
+}
